@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+
+/* Style the header */
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #ddd;
+    color: black;
+}
+
+#Me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    border: 5px solid #555;
+}
+
+.snap {
+    border-radius: 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+#g {
+    border-radius: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 100px;
+    width: auto;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+#social {
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.nothing {
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.nothing {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 5px solid #555;
+    border-radius: 20px;
+}
+
+#noone {
+    padding-left: 50%;
+}
+
+.music {
+    text-align: center;
+    box-shadow: 5px 10px black;
+}
